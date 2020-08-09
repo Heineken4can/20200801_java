@@ -90,7 +90,7 @@ public class Keypad {
 				String right = inputData.substring(inx + length, inx + (length * 2));
 				
 //				System.out.println(left + " " + right);
-				
+				 
 				if(left.equals(right)){
 					valid = false;
 				}
