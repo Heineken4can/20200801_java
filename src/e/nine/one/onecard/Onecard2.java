@@ -1,4 +1,4 @@
-package e.nine.one.onecard.one;
+package e.nine.one.onecard;
 
 public class Onecard2 {
 
@@ -7,6 +7,10 @@ public class Onecard2 {
 	 * 
 	 * @param 		inputData		입력데이터 (문자열 배열)
 	 * @return		boolean			원카드 룰 적합 여부 (true/false)
+	 * 	 이 문제의 핵심 : 
+	 두 개의 string을 잘라서(charAt), 
+	 전체를(for문) 
+	 비교(==)하는 문제
 	 */
 	public boolean isValidOnecardRule( String[] inputData ) {
 		

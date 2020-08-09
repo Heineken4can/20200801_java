@@ -1,4 +1,4 @@
-package e.nine.one.onecard.one;
+package e.nine.one.onecard;
 
 public class OnecardRun {
 	
@@ -7,8 +7,8 @@ public class OnecardRun {
 		// 제공 데이터 세트2를 실행하려면 loadData에서 제공 데이터 세트1을 주석 처리하고 제공 데이터 세트2를 주석 해제하여 실행
 		String[] inputData = loadData();
 		Onecard onecard = new Onecard();
-		
 		printInput( inputData );
+		
 		
 		// 1. 카드 문자열이 원카드 룰에 맞는지 여부를 판별하는 기능
 		boolean result = onecard.isValidOnecardRule( inputData );
@@ -20,17 +20,18 @@ public class OnecardRun {
 		//////////////////////////////////
 		// 제공 데이터 세트 1
 		/////////////////////////////////
-//		String[] inputData = {
-//			"S4", "H4", "D4", "D9", "H9", "H4", "H2", "S2"	
-//		};
+		String[] inputData1 = {
+				"S4", "H4", "D4", "D9", "H9", "H4", "H2", "S2"	
+		};
 		
 		//////////////////////////////////
 		// 제공 데이터 세트 2
 		/////////////////////////////////
-		String[] inputData = {
+		String[] inputData2 = {
 			"C5", "H5", "D2", "D6", "D3", "S3"
 		};
 		
+		String[] inputData = inputData2; //여기를 수정하면, 템프 데이터를 수정할 수 있음.
 		return inputData;
 	}
 	
