@@ -1,11 +1,6 @@
-1.Onecard
+package e.nine.one.onecard.one;
 
-2020년 6월 29일 월요일
-오후 11:11
-
-package com.lgcns.tct.onecard;
-
-public class Onecard {
+public class Onecard2 {
 
 	/**
 	 * 카드 문자열이 원카드 룰에 맞는지 여부를 판별하는 기능

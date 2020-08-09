@@ -1,9 +1,4 @@
-1.Onecard
-
-2020년 6월 29일 월요일
-오후 11:11
-
-package com.lgcns.tct.onecard;
+package e.nine.one.onecard.one;
 
 public class Onecard {
 
